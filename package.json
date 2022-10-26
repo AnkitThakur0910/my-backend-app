@@ -2,9 +2,13 @@
   "name": "backend-app",
   "version": "1.0.0",
   "description": "my first deployed backend app",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "engines": {
+    "node": ">= 0.6"
   },
   "repository": {
     "type": "git",
