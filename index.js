@@ -5,7 +5,7 @@ require('dotenv').config;
 app.get('/', (req, res) => {
   res
     .status(200)
-    .send('dekh ansh bhusdk')
+    .send('dekh ansh')
     .end();
 });
  
