@@ -3,7 +3,7 @@ const app = express();
 require('dotenv').config;
  
 app.get('/', (req, res) => {
-  res.send('dekh ansh ');
+  res.send({message:"dekh ansh bhusdk"});
 });
  
 // Start the server
