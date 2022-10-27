@@ -5,8 +5,7 @@ require('dotenv').config;
 app.get('/', (req, res) => {
   res
     .status(200)
-    .send('dekh ansh')
-    .end();
+    .send('dekh ansh ');
 });
  
 // Start the server
