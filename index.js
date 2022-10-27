@@ -5,7 +5,7 @@ require('dotenv').config;
 app.get('/', (req, res) => {
   res
     .status(200)
-    .send('Hello server is running')
+    .send('dekh ansh bhusdk')
     .end();
 });
  
