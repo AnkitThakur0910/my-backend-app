@@ -3,9 +3,7 @@ const app = express();
 require('dotenv').config;
  
 app.get('/', (req, res) => {
-  res
-    .status(200)
-    .send('dekh ansh ');
+  res.send('dekh ansh ');
 });
  
 // Start the server
